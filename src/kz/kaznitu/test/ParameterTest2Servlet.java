@@ -38,7 +38,7 @@ public class ParameterTest2Servlet extends HttpServlet {
         resp.setContentType("text/html");
 
         PrintWriter out = resp.getWriter();
-        String title = "Using POST Method to Read Form Date";
+        String title = "Reading Checkbox Data";
         String docType =
                 "<!doctype html>\n";
 
